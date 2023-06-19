@@ -1,0 +1,285 @@
+*{
+    margin:0;
+}
+
+body{
+    height:100vh;
+    
+}
+
+header{
+    background-color:green;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+}
+header img{
+    height:100px;
+}
+.nav{  
+    display:flex;
+    align-items: center;
+}
+.nav img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+
+.menu{
+    margin-left:20px;
+}
+
+.main-content{
+    height:700px;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(62, 163, 62);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.hero{
+    display:flex;
+    margin-bottom:10px;
+}
+
+aside{
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+    width:320px;
+    background-color:green;
+}
+
+aside img{
+    margin-top:20px;
+    margin-bottom:20px;
+    height:200px;
+    width:200px;
+}
+
+aside h1{
+    padding-bottom:5px;
+    border-bottom:2px solid;
+}
+
+.members{
+    margin-bottom:20px;
+}
+
+.top{
+    width:100%;
+    height:700px;
+}
+
+.background{
+    background-image:url('/images/3.jpg');
+    background-size:cover;
+    z-index:1;
+    opacity: 30%;
+    height:100%;
+}
+
+.hero-content{
+    position:absolute;
+    z-index:2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+
+.hero-content img{
+    height:250px;
+}
+
+.info{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align:justify;
+    width:70%;
+    margin:50px;
+}
+
+.info h1{
+    font-size:70px;
+}
+
+.info p{
+    font-size:30px;
+}
+
+.middle{
+    background-color:white;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-top{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.button1{
+    display:flex;
+    align-items: center;
+    padding:5px;
+    height:200px;
+    width:400px;
+    cursor:pointer;
+    border:1px solid;
+}
+
+.middle-middle{
+    height:450px;
+    width:90%;
+    background-color:rgb(87, 87, 87);
+    display:flex;
+    flex-direction: column;
+}
+
+.news{
+    display:flex;
+    height:15%;
+    align-items: center;
+}
+
+.news-content{
+    padding:10px;
+    display:flex;
+    height:100%;
+    justify-content: space-between;
+}
+
+.latest{
+    display:flex;
+    justify-content: center;
+    width:30%;
+}
+
+.latest-news{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: justify; 
+}
+
+.brnews{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background-color:yellow;
+    width:10%;
+    margin-right:20px;
+}
+
+.bottom{
+    background-color:white;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-top{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.button2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    width:400px;
+    border:1px solid;
+    cursor:pointer;
+}
+
+.bottom-bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:90%;
+    height:100%;
+}
+
+.video{
+    align-self: center;
+}
+
+
+footer{
+    background-color:green;
+    height:300px;
+    padding:10px;
+}
+
+.footer-content{
+    display:flex;
+    height:100%;
+    justify-content: space-around;
+}
+
+.footer1{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    padding-right:20px;
+    text-align: justify;
+}
+
+.f1-top{
+    display:flex;
+    width:100%;
+    height:80px;
+    align-items: center;
+    margin-bottom:20px;
+}
+
+.f2-top{
+    display:flex;
+    width:100%;
+    height:80px;
+    align-items: center;
+}
+
+.footer2{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    padding-right:20px;
+    text-align: justify;
+}
+
+footer img{
+    margin-right:10px;
+    height:70px;
+}
+
+.copyright{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height:50px;
+    background-color:black;
+    font-size:10px;
+}
