@@ -16,6 +16,18 @@ header{
 header img{
     height:100px;
 }
+
+.main-logo{
+    display:flex;
+    align-items: center;
+    width:430px;
+}
+
+.main-logo h1, h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
 .nav{  
     display:flex;
     align-items: center;
@@ -26,11 +38,22 @@ header img{
     border-radius:50%;
 }
 
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover{
+    color:rgb(53, 53, 53);
+}
+
 .menu{
     margin-left:20px;
 }
 
 .main-content{
+    font-family: Arial, Helvetica, sans-serif;
     height:700px;
     display:flex;
     flex-direction: column;
@@ -53,14 +76,14 @@ aside{
     justify-content: center;
     height:700px;
     width:320px;
-    background-color:green;
+    background-color:rgb(21, 110, 21);
 }
 
 aside img{
     margin-top:20px;
     margin-bottom:20px;
-    height:200px;
     width:200px;
+
 }
 
 aside h1{
@@ -78,7 +101,7 @@ aside h1{
 }
 
 .background{
-    background-image:url('/images/3.jpg');
+    background-image:url('images/3.jpg');
     background-size:cover;
     z-index:1;
     opacity: 30%;
@@ -116,6 +139,7 @@ aside h1{
 }
 
 .middle{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:white;
     width:100%;
     height:100%;
@@ -131,22 +155,42 @@ aside h1{
     justify-content: space-between;
 }
 
-.button1{
+.button1, .button2, .button3{
+    color:white;
     display:flex;
     align-items: center;
     padding:5px;
     height:200px;
     width:400px;
     cursor:pointer;
-    border:1px solid;
 }
 
+.button1{
+    background-color: green;
+    background-image:url('images/3.png');
+    background-size:cover;
+}
+
+.button2{
+    background-color:yellow;
+    background-image:url('images/mayor.png');
+    background-size:cover;
+}
+
+.button3{
+    background-color:lightblue;
+    background-image:url('images/gentri.png');
+    background-size:cover;
+}
+
+
 .middle-middle{
-    height:450px;
+    height:500px;
     width:90%;
     background-color:rgb(87, 87, 87);
     display:flex;
     flex-direction: column;
+    border:1px solid;
 }
 
 .news{
@@ -156,10 +200,12 @@ aside h1{
 }
 
 .news-content{
+    background-color: rgb(14, 14, 14);
+    color:white;
     padding:10px;
     display:flex;
     height:100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .latest{
@@ -169,7 +215,7 @@ aside h1{
 }
 
 .latest-news{
-    width:60%;
+    width:40%;
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -184,9 +230,11 @@ aside h1{
     background-color:yellow;
     width:10%;
     margin-right:20px;
+    font-size:13px;
 }
 
 .bottom{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:white;
     width:100%;
     height:100%;
@@ -201,20 +249,38 @@ aside h1{
     justify-content: space-between;
 }
 
-.button2{
+
+
+.button4, .button5, .button6{
     display:flex;
     align-items: center;
     justify-content: center;
     height:100px;
     width:400px;
-    border:1px solid;
+    border:1px solid black;
     cursor:pointer;
+    color:white;
+}
+
+.button4{
+    background-image:url('images/New\ Project.jpg');
+    background-size:cover;
+}
+
+.button5{
+    background-image:url('images/New\ Project\ \(1\).jpg');
+    background-size:cover;
+}
+
+.button6{
+    background-image:url('images/New\ Project\ \(2\).jpg');
+    background-size:cover;
 }
 
 .bottom-bottom{
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width:90%;
     height:100%;
 }
@@ -225,6 +291,7 @@ aside h1{
 
 
 footer{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:green;
     height:300px;
     padding:10px;
@@ -267,12 +334,18 @@ footer{
     text-align: justify;
 }
 
+.footer2 a{
+    text-decoration: none;
+    color:rgb(59, 59, 59);
+}
+
 footer img{
     margin-right:10px;
     height:70px;
 }
 
 .copyright{
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
     display:flex;
     flex-direction: column;
@@ -280,6 +353,6 @@ footer img{
     text-align: center;
     width:100%;
     height:50px;
-    background-color:black;
+    background-color:darkgreen;
     font-size:10px;
 }
