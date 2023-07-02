@@ -49,8 +49,50 @@ header img{
 }
 
 .menu{
-    margin-left:20px;
+    margin-right:20px;
 }
+
+/* dropdown */
+
+.dropdown{
+    cursor:pointer;
+}
+
+ul{
+    padding:0;
+}
+
+.dropbtn{
+    margin-right:20px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    z-index: 3;
+}
+
+li a{
+    padding:10px;
+}
+
+.dropdown-content a{
+    border-bottom:2px solid green;
+    background-color:rgb(255, 255, 255);
+    display:block;
+    color:black;
+    margin-right:10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* end of dropdown */
 
 .main-content{
     font-family: Arial, Helvetica, sans-serif;
