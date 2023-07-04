@@ -264,3 +264,12 @@ footer img{
 }
 
 /* END OF FOOTER CONTENT */
+
+.bottom-bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:50%;
+    height:100%;
+    margin: auto;
+}
