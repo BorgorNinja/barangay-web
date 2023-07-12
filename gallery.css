@@ -54,19 +54,6 @@ header img{
     margin-right:20px;
 }
 
-.socmed{
-    box-sizing: border-box;
-    display:flex;
-    width:100%;
-    padding:20px;
-    justify-content: space-around;
-}
-
-.socmed img{
-    height:250px;
-    cursor:pointer;
-}
-
 /* dropdown */
 
 .dropdown{
@@ -216,30 +203,63 @@ li a{
     padding-bottom:50px;
 }
 
-.container p{
-    text-align: justify;
-}
-
 .content{
+    display:flex;
+    flex-direction: column;
     height:100%;
-    width:1200px;
+    width:100%;
     margin-bottom:50px;
+    text-align:justify;
 }
 
 .post1{
-    margin:50px 0px 50px;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:10px;
 }
 
-.content-images{
-    margin:25px 0px 25px;
-    align-self: center;
+.left{
+    width:750px;
 }
 
-.content-images img{
-    height:500px;
-    width:800px;
+.right img{
+    height:400px;
+}
+
+.b-images{
+    margin-top:50px;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.vids{
+    width:100%;
+    display:flex;
+}
+
+.leftside{
+    display:flex; 
+    justify-content:center;
+    gap: 5px;
+}
+
+.rightside{
+    display:flex; 
+    justify-content:center;
+    gap: 5px;
+}
+
+.b-images img{
+    height:450px;
+    width:500px;
+}
+
+.b-images img:hover{
+    filter:brightness(60%);
 }
 
 /*end of page content/
@@ -300,6 +320,19 @@ footer{
     margin-bottom:20px;
 }
 
+.socmed{
+    box-sizing: border-box;
+    display:flex;
+    width:100%;
+    padding:20px;
+    justify-content: space-around;
+}
+
+.socmed img{
+    height:250px;
+    cursor:pointer;
+}
+
 .f2-top{
     display:flex;
     width:100%;
@@ -339,3 +372,12 @@ footer img{
 }
 
 /* END OF FOOTER CONTENT */
+
+.bottom-bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:100%;
+    height:100%;
+    margin: auto;
+}
